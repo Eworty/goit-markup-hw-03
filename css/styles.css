@@ -47,6 +47,9 @@ p {
 
 /* HEADER */
 /* Logo */
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
 
 .logo {
   font-family: 'Raleway';
@@ -60,6 +63,7 @@ p {
 
 .header-logo {
   margin-right: 93px;
+  padding: 24px 0 25px 0;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -180,6 +184,19 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .list-text {
