@@ -102,6 +102,8 @@ p {
 
 /* MAIN */
 .title {
+  margin-bottom: 50px;
+
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -110,6 +112,7 @@ p {
 
 /* Hero selection */
 .hero {
+  text-align: center;
   background-color: var(--secondary-background-color);
 }
 
@@ -119,7 +122,6 @@ p {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
 
   color: var(--white-color);
@@ -131,7 +133,6 @@ p {
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 
   background-color: var(--accent-background-color);
@@ -142,6 +143,7 @@ p {
 
 /* Features */
 .list-title {
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -166,7 +168,13 @@ p {
   background-color: var(--primary-background-color);
 }
 
+.personal-img {
+  margin-bottom: 30px;
+}
+
 .item-title {
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
