@@ -8,6 +8,8 @@
 
   --accent-background-color: #2196f3;
   --accent-text-color: #2196f3;
+
+  --white-color: #ffffff
 }
 
 body {
@@ -113,7 +115,7 @@ p {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero-button {
@@ -125,7 +127,7 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--accent-background-color);
-  color: #ffffff;
+  color: var(--white-color);
   cursor: pointer;
 }
 
@@ -181,7 +183,7 @@ p {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 /* Address */
@@ -190,7 +192,7 @@ p {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .contact-link {
@@ -237,7 +239,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: var(--accent-background-color);
-  color: #ffffff;
+  color: var(--white-color);
   cursor: pointer;
 }
 
