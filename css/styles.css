@@ -53,6 +53,7 @@ p {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+
   color: var(--accent-text-color);
 }
 
@@ -62,6 +63,7 @@ p {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+
   color: var(--primary-text-color);
 }
 
@@ -71,6 +73,7 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   color: var(--primary-text-color);
 }
 
@@ -88,6 +91,7 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   color: var(--secondary-text-color);
 }
 
@@ -110,11 +114,14 @@ p {
 }
 
 .hero-title {
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+
   color: var(--white-color);
 }
 
@@ -126,8 +133,10 @@ p {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
   background-color: var(--accent-background-color);
   color: var(--white-color);
+
   cursor: pointer;
 }
 
@@ -136,6 +145,7 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+
   color: var(--primary-text-color);
 }
 
@@ -143,6 +153,7 @@ p {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
   color: var(--secondary-text-color);
 }
 
@@ -161,6 +172,7 @@ p {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: var(--primary-text-color);
 }
 
@@ -169,6 +181,7 @@ p {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: var(--secondary-text-color);
 }
 
@@ -183,6 +196,7 @@ p {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+
   color: var(--white-color);
 }
 
@@ -192,6 +206,7 @@ p {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
   color: var(--white-color);
 }
 
@@ -202,6 +217,7 @@ p {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -211,6 +227,7 @@ p {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
   color: var(--accent-text-color);
 }
 
@@ -227,8 +244,10 @@ p {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+
   background-color: #f5f4fa;
   color: var(--primary-text-color);
+
   cursor: pointer;
 }
 
@@ -238,8 +257,10 @@ p {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+
   background-color: var(--accent-background-color);
   color: var(--white-color);
+
   cursor: pointer;
 }
 
