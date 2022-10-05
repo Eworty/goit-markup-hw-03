@@ -27,6 +27,12 @@ p {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -63,7 +69,6 @@ p {
 
 .header-logo {
   margin-right: 93px;
-  padding: 24px 0 25px 0;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -94,6 +99,9 @@ p {
 
 
 .nav-link {
+  display: block;
+  padding: 32px 0px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -121,6 +129,8 @@ p {
 }
 
 .header-address .address {
+  display: block;
+  padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -173,6 +183,9 @@ p {
   color: var(--white-color);
 
   cursor: pointer;
+  border-radius: 4px;
+  border-color: var(--accent-background-color);
+
 }
 
 /* Features */
@@ -237,12 +250,13 @@ p {
   margin-right: 30px;
 }
 
-.item {
+.team-list .item {
   background-color: var(--primary-background-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.personal-img {
-  margin-bottom: 30px;
+.work-item {
+  padding: 30px;
 }
 
 .item-title {
@@ -273,8 +287,15 @@ p {
   background-color: var(--secondary-background-color);
 }
 
+.footer-section {
+  padding: 60px 0px;
+}
+
 /* Logo */
 .footer-logo {
+  display: block;
+  margin-bottom: 20px;
+
   font-family: 'Raleway';
   font-size: 26px;
   line-height: 1.2;
@@ -284,7 +305,9 @@ p {
 }
 
 /* Address */
+
 .address {
+  display: block;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -293,7 +316,12 @@ p {
   color: var(--white-color);
 }
 
+.footer-list .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .contact-link {
+  display: block;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
