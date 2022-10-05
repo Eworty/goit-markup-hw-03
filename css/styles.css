@@ -199,6 +199,14 @@ p {
   margin: -1px;
 }
 
+.features-list {
+  display: flex;
+}
+
+.features-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .list-text {
   font-size: 14px;
   line-height: 1.7;
@@ -207,9 +215,26 @@ p {
   color: var(--secondary-text-color);
 }
 
+/* Work */
+.work-list {
+  display: flex;
+}
+
+.work-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* Team */
 .team {
   background-color: var(--tertiary-background-color);
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-list .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .item {
@@ -233,6 +258,8 @@ p {
 }
 
 .item-text {
+  padding-bottom: 30px;
+
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
