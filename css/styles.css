@@ -158,6 +158,7 @@ img {
 .hero {
   text-align: center;
   background-color: var(--secondary-background-color);
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -399,18 +400,19 @@ img {
   flex-wrap: wrap;
 }
 
-.portfolio-list .portfolio-item {
-  margin-right: 30px;
-}
-
-.portfolio-list .portfolio-item:nth-child(3n) {
-  margin-right: 0px;
-}
-
 .portfolio-item {
+  margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
   background-color: var(--primary-background-color);
+}
+
+.portfolio-item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.portfolio-item:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
 }
 
 .text-block {
